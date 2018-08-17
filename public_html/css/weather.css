@@ -1,0 +1,94 @@
+.clear_weather {
+	clear:both;
+	height:3px;
+}
+
+.forecast_container {
+	font-family:Arial, Helvetica, sans-serif;
+	float:left;
+}
+
+.weather_icon {
+	margin-right:5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width:40px;
+	height:40px;
+	float:left;
+}
+
+.weather_city {
+	font-weight:bold;
+	font-size:15px;
+	margin-bottom:3px;
+	color:#000;
+}
+
+.weather_condition {
+	font-weight:normal;
+	margin:0px;
+	text-transform:uppercase;
+	margin-bottom:3px;
+	font-size:15px;
+}
+
+.weather_container {
+	font-family:Arial, Helvetica, sans-serif;
+	padding-top:0px;
+	color:#000;
+}
+
+.weather_day_forecast {
+	font-weight:normal;
+	margin:0px;
+	color:#000;
+	text-transform:uppercase;
+	margin-bottom:0px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.weather_forecast {
+	background:#CCC;
+	clear:both;
+}
+
+.weather_grouping {
+	display:block;
+	clear:both;
+}
+
+.weather_high {
+	font-weight:normal;
+	margin:0px;
+	color:#315d97;
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+.weather_icon_forecast {
+	margin-right:5px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	width:35px;
+	height:35px;
+}
+
+.weather_low {
+	font-weight:normal;
+	margin:0px;
+	color:#ab9b8b;
+	text-transform:uppercase;
+	font-size:10px;
+}
+
+.weather_temperature {
+	font-weight:bold;
+	font-size:13px;
+	margin:0px;
+}
+
+.weather_wind {
+	font-size:10px;
+	color:#999;
+}

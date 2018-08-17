@@ -1,0 +1,4 @@
+[16-Jan-2017 13:47:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/crucerod/public_html/privado/youtube.php:55
+Stack trace:
+#0 {main}
+  thrown in /home/crucerod/public_html/privado/youtube.php on line 55

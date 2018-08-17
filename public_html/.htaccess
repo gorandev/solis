@@ -1,0 +1,36 @@
+Options +FollowSymlinks
+
+
+RewriteEngine On
+RewriteBase /
+Redirect 301 /contacto.php /contacto/contacto.htm
+Redirect 301 /quienes_somos.php /quienes-somos
+Redirect 301 /embarcaciones.php /embarcaciones
+Redirect 301 /reservas.php /contacto/reservas.htm
+Redirect 301 /paradores_spa.php /index.php
+Redirect 301 /carta_virtual.php /index.php
+Redirect 301 /regalos.php /index.php
+Redirect 301 /promociones.php /index.php
+Redirect 301 /fotos_videos.php /index.php
+Redirect 301 /promociones.php /index.php
+Redirect 301 /promociones.php /index.php
+Redirect 301 /servicios/dia-de-crucero.html /servicios/delta-de-dia/fullday-almuerzo
+Redirect 301 /servicios/salidas-romanticas.html /servicios/delta-de-noche
+Redirect 301 /servicios/eventos-corporativos.html /servicios/eventos-corporativos
+Redirect 301 /servicios/fiestas-sociales.html /servicios/fiestas-sociales
+Redirect 301 /servicios/noche-de-bodas.html /servicios/delta-de-noche/noche-de-bodas
+Redirect 301 /servicios/safari-biosfera.html /servicios/escapadas-en-el-delta/ecoturismo-2
+# Redirect 301 /index.php /
+Options All -Indexes
+
+
+Options All -Indexes
+
+ErrorDocument 404 /index.php
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Configure el paquete “ea-php70” como el lenguaje de programación predeterminado “PHP”.
+<IfModule mime_module>
+  AddType application/x-httpd-ea-php70 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
